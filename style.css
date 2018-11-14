@@ -1,0 +1,148 @@
+body{
+	
+	background-image: url("image/gg.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-primary{
+	margin: 10px 50px 50px 50px;
+}
+
+.form-control{
+	margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.display{
+	margin-top: 50px;
+}
+
+
+#myChart{
+	margin: 20px;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 635px;
+    height: 380px;
+    
+}
+
+#myChart:hover{
+	 box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+
+#myChart1{
+	margin: 20px;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 635px;
+    height: 380px;
+
+}
+
+#myChart1:hover{
+	 box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+
+.weather-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ sup {
+ 	    font-size: 15px;
+    top: -1.5em;
+}
+
+.weather-card {
+    
+    margin:  20px 5px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 270px;
+    background-image: url("image/orgCard.jpg");
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 20px 25px 1px rgba(46, 49, 49, 1);
+    animation: appear 500ms ease-out forwards;
+ }
+
+ .weather-card:hover {
+        background-image: url("image/bluCard.jpg"); no-repeat;
+}
+ .weather-card h1{
+ 	  position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+    bottom: 50;
+    left: 35px;
+    animation: title-appear 500ms ease-out 500ms forwards;
+ }
+
+.weather-card .dates{
+    top: 20px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    transform: translateX(10px);
+    animation: title-appear 500ms ease-out 500ms forwards
+ }
+
+
+ .weather-card p{
+
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-weight:300;
+        font-size:28px;
+        color: white;
+        bottom: 0;
+        left: 35px;
+        animation: title-appear 1s ease-out 500ms forwards;
+    }
+ 
+
+ .weather-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 40;
+    right: 30px;
+    float: right;
+    margin: 40px 40px 0 0;
+    animation: weather-icon-move 5s ease-in-out infinite;
+}
+
+.card {
+    width: 50%;
+    height: 220px;
+    left: 25%;
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .box {
+  position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
